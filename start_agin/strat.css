@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+background-color:aquamarine;
+min-height: 2600px;
+}
+
+.logo > img{
+float:right;
+border-radius: 50%;
+width: 50px;
+height:auto;
+padding-right: 5px;
+margin-top: 10px;
+
+}
+.manu{
+    position: fixed;
+    background-color:black;
+    min-height: 70px;
+    color:#fff;
+    width: 100%;
+
+}
+li {
+   
+    float: right;
+    padding: 20px;
+    /* display: inline; */
+    display: block;
+    border: 0px solid black;
+    border-radius: 30px;
+    margin: 4px;
+    background-color:floralwhite;
+
+    
+}
+a{
+    text-decoration:none;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+  
+   
+}
+
+.logo-name{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    margin-top:5px;
+    border-radius: 5px;
+    border:5px solid ;
+}
+main{
+    /* margin:5% ; */
+    background-color: blue;
+
+    width: 100%;
+    height:auto;
+   
+    
+/* height: auto; */
+}
+.main{
+    float: left;
+    margin-top: 15%;
+    margin-left:6.3%;
+    background-color: #fff;
+    width:40% ;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* box-shadow: 4px red; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  
+    /* position: fixed; */
+    
+   
+
+}
+span{
+    color:red;
+}
+
+.main > img{
+    overflow:hidden;
+    height:500px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+/* .main-1{
+    float: left;
+    margin-top: 15%;
+    margin-left:5%;
+    background-color:#fff;
+    width:40% ;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* box-shadow: 4px red; */
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.6); */
+    /* position: fixed; */
+    
+   
+
+/* }  */
+
+
+
+
+ 
